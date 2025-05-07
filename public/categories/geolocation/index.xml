@@ -2,45 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geolocation on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/geolocation/</link>
     <description>Recent content in Geolocation on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/geolocation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookie Geolocation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Geo Redirect</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
+      <description>&lt;p&gt;Implements an EdgeWorker to add geolocation data to a cookie in the HTTP response. This cookie returns location information about the client where the request originates, including a lookup from custom data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
+      <description>&lt;p&gt;This example implements a microservice GEO-Location API call that returns location information about the client where the request originates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Store Locator</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/store-locator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
+      <description>&lt;p&gt;Implements a microservice store locator API call that returns the two stores nearest to the provided latitude and longitude. &lt;br&gt;&lt;br&gt;Note: Latitude and Longitude values are hardcoded for demo purposes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
+      <description>&lt;p&gt;Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

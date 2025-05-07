@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecommerce on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/ecommerce/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/ecommerce/</link>
     <description>Recent content in Ecommerce on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/ecommerce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ecommerce/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ecommerce/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ecommerce/</guid>
+      <description>&lt;p&gt;This EdgeWorker tests for /commerce/categories in the URI path and responds to a GET parameter named search by running a case-insensitive regex against each title and description field, and a numeric comparison against each ID, returning an array of matching category entities, serialized as JSON. The response is generated at the Edge, so the origin server is not contacted, and the request is resolved at the first Edge server that answers it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
+      <description>&lt;p&gt;Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews&lt;/p&gt;&#xA;&lt;p&gt;This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.&lt;/p&gt;&#xA;&lt;iframe width=&#39;560&#39; height=&#39;315&#39; src=&#39;https://www.youtube.com/embed/DAFmdGi_XQo?si=opditGW5xdmZnDBQ&#39; title=&#39;YouTube video player&#39; frameborder=&#39;0&#39; allow=&#39;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#39; referrerpolicy=&#39;strict-origin-when-cross-origin&#39; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
   </channel>
 </rss>

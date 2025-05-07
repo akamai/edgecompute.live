@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Auth on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/auth/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/auth/</link>
     <description>Recent content in Auth on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/auth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/auth/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Search User Details</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/search-user-details/</link>
+      <title>Register User Details</title>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/register-user-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/search-user-details/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/register-user-details/</guid>
+      <description>&lt;p&gt;Demonstrates how you can use EdgeWorkers and EdgeKV to collect user details. It also shows how you could use the putJson() helper method. &lt;br&gt;&lt;br&gt;Note: Please copy the &amp;lsquo;key&amp;rsquo; value from the output if you wish to verify the entered details in the Search User example.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>User Registration</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/user-registration/</link>
+      <title>Search User Details</title>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/search-user-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/user-registration/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/search-user-details/</guid>
+      <description>&lt;p&gt;The example demonstrates how you can use EdgeWorkers and EdgeKV to search for specific user details. It also shows how you could use getJson() helper method.&lt;br&gt;&lt;br&gt; Note : This is an extension of User Registration use case. You would need the key value from the User Registration use case if you want to verify the details.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

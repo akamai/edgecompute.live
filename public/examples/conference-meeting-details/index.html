@@ -3,7 +3,7 @@
 	<head><script src="/Akamai-Edge-Compute-Live/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Akamai-Edge-Compute-Live/livereload" data-no-instant defer></script>
 	<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>A/B Testing with EdgeKV | Edge Compute Live</title>
+<title>Conference/Meeting Details | Edge Compute Live</title>
 
 
     <link rel="stylesheet" href="/Akamai-Edge-Compute-Live/css/main.css">
@@ -198,11 +198,9 @@
 							
 
 							
-								
-							
 
 							
-								<img src="/Akamai-Edge-Compute-Live/images/icon-landscape-orange.svg" alt="Icon ">
+								<img src="/Akamai-Edge-Compute-Live/images/icon-arrows-small.svg" alt="Icon ">
 							
 						</span>
 
@@ -211,27 +209,27 @@
 								
 	<ul>
 			<li>
-				<a href="/Akamai-Edge-Compute-Live/categories/marketing/" class="type-tag">Marketing</a>
+				<a href="/Akamai-Edge-Compute-Live/categories/traffic-routing/" class="type-tag">Traffic Routing</a>
 			</li>
 	</ul>
 
 							</div>
 
-							<h2 id="example-heading">A/B Testing with EdgeKV</h2>
+							<h2 id="example-heading">Conference/Meeting Details</h2>
 
-							<p>Last updated on <span class="js-time-updated" data-api-url="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20%28EKV%29"></span></p>
+							<p>Last updated on <span class="js-time-updated" data-api-url="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-filtering/conference-details"></span></p>
 						</div>
 					</div>
 
 					<div class="section__cta">
-						<a href="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20%28EKV%29" class="btn btn--blue" target="_blank">View on GitHub</a>
+						<a href="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-filtering/conference-details" class="btn btn--blue" target="_blank">View on GitHub</a>
 					</div>
 				</div>
 
 				<div class="section__body">
 					
 						<div class="section__entry">
-							<p>A/B testing is beneficial to the business to test new features and measure user engagement. But this often comes with the cost of impacting page performance and user experience.</p>
+							<p>Providing conference details at the edge ensures quick access for authorized users while maintaining confidentiality by keeping sensitive information away from the browser. This reduces the load on the origin server and improves response times.</p>
 						</div>
 					
 
@@ -273,18 +271,18 @@
 						<div class="tabs__body">
 							<div class="tab current">
 								<div class="codeblock">
-									<pre class="language-js js-entry-code" data-ajax="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20(EKV)"><code>Loading...</code></pre>
+									<pre class="language-js js-entry-code" data-ajax="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-filtering/conference-details"><code>Loading...</code></pre>
 								</div>
 							</div>
 
 							<div class="tab current">
 								<div class="box-preview">
 									<div class="box__head">
-										<p class="js-demo-url">https://www.edgecompute.live/edgeworkers/trafficRouting/ABtestEW.html</p>
+										<p class="js-demo-url">https://www.edgecompute.live/edgeworkers/cdetails/conference-details.html</p>
 									</div>
 
 									<div class="box__body">
-										<iframe src="https://www.edgecompute.live/edgeworkers/trafficRouting/ABtestEW.html" width="100%" height="400" frameborder="0" class="js-demo-iframe" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+										<iframe src="https://www.edgecompute.live/edgeworkers/cdetails/conference-details.html" width="100%" height="400" frameborder="0" class="js-demo-iframe" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 									</div>
 								</div>
 							</div>
@@ -297,7 +295,7 @@
 
 					
 						<div class="section__entry">
-							<p><p>By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript.</p>
+							<p><p>Implements a Conference Attendance Code API call that returns the meeting details of a conference as HTML if the user provides the correct code. With abc123 in the key GET parameter, the user is shown conference details. If the parameter is incorrect, an error is returned, keeping the information away from the browser to maintain confidentiality.</p>
 </p>
 						</div>
 					
@@ -316,8 +314,8 @@
     </div>
 
     <div class="feature__entry">
-        <h5>Cache Integration</h5>
-        <p>Combine performance benefits from CDN caching with dynamic edge compute logic.</p>
+        <h5>Ease Development</h5>
+        <p>Enable developers to modify application behavior without touching origin server logic.</p>
     </div>
 </div>
 
@@ -334,8 +332,8 @@
     </div>
 
     <div class="feature__entry">
-        <h5>Dynamic Flexibilty</h5>
-        <p>Modify in-flight content on its way between client and origin server and back to clients.</p>
+        <h5>Improve Experience</h5>
+        <p>Add additional features on top of your existing infrastructure to improve the user experience. </p>
     </div>
 </div>
 
@@ -352,8 +350,8 @@
     </div>
 
     <div class="feature__entry">
-        <h5>Personalized Experience</h5>
-        <p>Provides personalized content based on location, device, or request details.</p>
+        <h5>Improve Reliability</h5>
+        <p>Move compute cycles to the edge, reducing load and improving reliability and performance of origin servers.</p>
     </div>
 </div>
 
@@ -454,6 +452,61 @@
             
                 <div class="grid__col grid__col--1of3">
                     <div class="card">
+    <a href="/Akamai-Edge-Compute-Live/examples/device-routing/"></a>
+
+    <div class="card__head">
+        <span class="card__icon">
+			
+
+			
+            
+                
+            
+            
+
+            
+
+            
+                <img src="/Akamai-Edge-Compute-Live/images/icon-arrows-small.svg" alt="Icon ">
+            
+        </span>
+
+        <picture class="card__background">
+            <img src="/Akamai-Edge-Compute-Live/images/card-bg.png" alt="Card background">
+        </picture>
+    </div>
+
+    <div class="card__body">
+        <div class="card__tags">
+            <ul>
+				
+                
+                <li>
+                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/traffic-routing" class="type-tag">Traffic Routing</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/developer-tools" class="type-tag">Developer Tools</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="card__entry">
+            <h5>Device Routing</h5>
+
+            <p><p>Implements modification of the forward origin path of the URL to return device-specific content.</p>
+</p>
+        </div>
+
+        <span class="btn btn--blue card__btn">View Case</span>
+    </div>
+</div>
+
+                </div>
+            
+                <div class="grid__col grid__col--1of3">
+                    <div class="card">
     <a href="/Akamai-Edge-Compute-Live/examples/multivariate-testing/"></a>
 
     <div class="card__head">
@@ -500,59 +553,6 @@
             <h5>Multivariate Testing</h5>
 
             <p><p>Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.</p>
-</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-                </div>
-            
-                <div class="grid__col grid__col--1of3">
-                    <div class="card">
-    <a href="/Akamai-Edge-Compute-Live/examples/promo-code-validation/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-                
-            
-
-            
-                <img src="/Akamai-Edge-Compute-Live/images/icon-landscape-orange.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/Akamai-Edge-Compute-Live/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-				
-                
-                <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/marketing" class="type-tag">Marketing</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Promo Code Validation</h5>
-
-            <p><p>The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method.</p>
 </p>
         </div>
 

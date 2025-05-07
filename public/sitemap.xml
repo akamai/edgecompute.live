@@ -2,85 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/api-orchestration/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/api-orchestration/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/auth/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/auth/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/autocomplete/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/autocomplete/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/conference-metting-details/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/conference-meeting-details/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/content-security-policy/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/content-security-policy/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/developer-tools/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/developer-tools/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/device-routing/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/device-routing/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/dynamic-callback/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/dynamic-callback/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/ecommerce/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ecommerce/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/find-replace-stream/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/find-replace-stream/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/hello-world/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/html-rewriter/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/hello-world/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/html-rewriter/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/marketing/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/miscellaneous/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/marketing/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/miscellaneous/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/origin-error-handling/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/performance/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/origin-error-handling/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/performance/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/promo-code-validation/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/register-user-details/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/promo-code-validation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/response-manipulation/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/response-manipulation/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/search-user-details/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/search-user-details/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/security/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/security/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/store-locator/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</loc>
   </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</loc>
-  </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/categories/traffic-routing/</loc>
-  </url><url>
-    <loc>http://localhost:53874/Akamai-Edge-Compute-Live/examples/user-registration/</loc>
+    <loc>http://localhost:1313/Akamai-Edge-Compute-Live/categories/traffic-routing/</loc>
   </url>
 </urlset>

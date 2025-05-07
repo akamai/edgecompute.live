@@ -3,7 +3,7 @@
 	<head><script src="/Akamai-Edge-Compute-Live/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Akamai-Edge-Compute-Live/livereload" data-no-instant defer></script>
 	<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>A/B Testing with EdgeKV | Edge Compute Live</title>
+<title>Register User Details | Edge Compute Live</title>
 
 
     <link rel="stylesheet" href="/Akamai-Edge-Compute-Live/css/main.css">
@@ -211,27 +211,27 @@
 								
 	<ul>
 			<li>
-				<a href="/Akamai-Edge-Compute-Live/categories/marketing/" class="type-tag">Marketing</a>
+				<a href="/Akamai-Edge-Compute-Live/categories/auth/" class="type-tag">Auth</a>
 			</li>
 	</ul>
 
 							</div>
 
-							<h2 id="example-heading">A/B Testing with EdgeKV</h2>
+							<h2 id="example-heading">Register User Details</h2>
 
-							<p>Last updated on <span class="js-time-updated" data-api-url="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20%28EKV%29"></span></p>
+							<p>Last updated on <span class="js-time-updated" data-api-url=""></span></p>
 						</div>
 					</div>
 
 					<div class="section__cta">
-						<a href="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20%28EKV%29" class="btn btn--blue" target="_blank">View on GitHub</a>
+						<a href="" class="btn btn--blue" target="_blank">View on GitHub</a>
 					</div>
 				</div>
 
 				<div class="section__body">
 					
 						<div class="section__entry">
-							<p>A/B testing is beneficial to the business to test new features and measure user engagement. But this often comes with the cost of impacting page performance and user experience.</p>
+							<p>Collecting user details at the edge ensures quick and efficient processing, reducing latency and enhancing the user experience. Storing user information in EdgeKV allows for secure and scalable data management.</p>
 						</div>
 					
 
@@ -273,18 +273,18 @@
 						<div class="tabs__body">
 							<div class="tab current">
 								<div class="codeblock">
-									<pre class="language-js js-entry-code" data-ajax="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20(EKV)"><code>Loading...</code></pre>
+									<pre class="language-js js-entry-code" data-ajax=""><code>Loading...</code></pre>
 								</div>
 							</div>
 
 							<div class="tab current">
 								<div class="box-preview">
 									<div class="box__head">
-										<p class="js-demo-url">https://www.edgecompute.live/edgeworkers/trafficRouting/ABtestEW.html</p>
+										<p class="js-demo-url">https://www.edgecompute.live/edgekv/reg/registration_details.html</p>
 									</div>
 
 									<div class="box__body">
-										<iframe src="https://www.edgecompute.live/edgeworkers/trafficRouting/ABtestEW.html" width="100%" height="400" frameborder="0" class="js-demo-iframe" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+										<iframe src="https://www.edgecompute.live/edgekv/reg/registration_details.html" width="100%" height="400" frameborder="0" class="js-demo-iframe" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 									</div>
 								</div>
 							</div>
@@ -297,7 +297,7 @@
 
 					
 						<div class="section__entry">
-							<p><p>By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript.</p>
+							<p><p>Demonstrates how you can use EdgeWorkers and EdgeKV to collect user details. It also shows how you could use the putJson() helper method. <br><br>Note: Please copy the &lsquo;key&rsquo; value from the output if you wish to verify the entered details in the Search User example.</p>
 </p>
 						</div>
 					
@@ -316,8 +316,8 @@
     </div>
 
     <div class="feature__entry">
-        <h5>Cache Integration</h5>
-        <p>Combine performance benefits from CDN caching with dynamic edge compute logic.</p>
+        <h5>Core Concepts</h5>
+        <p>Helps developers understand the fundamental processes needed for edge computing.</p>
     </div>
 </div>
 
@@ -334,44 +334,8 @@
     </div>
 
     <div class="feature__entry">
-        <h5>Dynamic Flexibilty</h5>
-        <p>Modify in-flight content on its way between client and origin server and back to clients.</p>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of2">
-									<div class="feature feature--alt">
-    <div class="feature__head">
-        <span class="feature__icon">
-            
-                <img src="/Akamai-Edge-Compute-Live/images/icon-landscape.svg" alt="Icon landscape">
-            
-        </span>
-    </div>
-
-    <div class="feature__entry">
-        <h5>Personalized Experience</h5>
-        <p>Provides personalized content based on location, device, or request details.</p>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of2">
-									<div class="feature feature--alt">
-    <div class="feature__head">
-        <span class="feature__icon">
-            
-                <img src="/Akamai-Edge-Compute-Live/images/icon-landscape.svg" alt="Icon landscape">
-            
-        </span>
-    </div>
-
-    <div class="feature__entry">
-        <h5>Reduce Latency</h5>
-        <p>Speed up response times by moving work closer to users.</p>
+        <h5>Distributed Data</h5>
+        <p>Pushing data to the edge speeds up websites by avoiding central bottlenecks</p>
     </div>
 </div>
 
@@ -397,7 +361,7 @@
             
                 <div class="grid__col grid__col--1of3">
                     <div class="card">
-    <a href="/Akamai-Edge-Compute-Live/examples/ab-testing/"></a>
+    <a href="/Akamai-Edge-Compute-Live/examples/search-user-details/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -429,130 +393,16 @@
 				
                 
                 <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/marketing" class="type-tag">Marketing</a>
-                </li>
-                
-                <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/traffic-routing" class="type-tag">Traffic Routing</a>
+                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/auth" class="type-tag">Auth</a>
                 </li>
                 
             </ul>
         </div>
 
         <div class="card__entry">
-            <h5>A/B Testing</h5>
+            <h5>Search User Details</h5>
 
-            <p><p>Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module.</p>
-</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-                </div>
-            
-                <div class="grid__col grid__col--1of3">
-                    <div class="card">
-    <a href="/Akamai-Edge-Compute-Live/examples/multivariate-testing/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-                
-            
-
-            
-                <img src="/Akamai-Edge-Compute-Live/images/icon-landscape-orange.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/Akamai-Edge-Compute-Live/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-				
-                
-                <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/marketing" class="type-tag">Marketing</a>
-                </li>
-                
-                <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/traffic-routing" class="type-tag">Traffic Routing</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Multivariate Testing</h5>
-
-            <p><p>Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.</p>
-</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-                </div>
-            
-                <div class="grid__col grid__col--1of3">
-                    <div class="card">
-    <a href="/Akamai-Edge-Compute-Live/examples/promo-code-validation/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-                
-            
-
-            
-                <img src="/Akamai-Edge-Compute-Live/images/icon-landscape-orange.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/Akamai-Edge-Compute-Live/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-				
-                
-                <li>
-                    <a href="http://localhost:1313/Akamai-Edge-Compute-Live//categories/marketing" class="type-tag">Marketing</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Promo Code Validation</h5>
-
-            <p><p>The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method.</p>
+            <p><p>The example demonstrates how you can use EdgeWorkers and EdgeKV to search for specific user details. It also shows how you could use getJson() helper method.<br><br> Note : This is an extension of User Registration use case. You would need the key value from the User Registration use case if you want to verify the details.</p>
 </p>
         </div>
 
