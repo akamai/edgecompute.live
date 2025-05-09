@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/security/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/security/</link>
     <description>Recent content in Security on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Security Policy</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/content-security-policy/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/content-security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/content-security-policy/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/content-security-policy/</guid>
+      <description>&lt;p&gt;A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JA3 Fingerprinting</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</guid>
+      <description>&lt;p&gt;Calculates JA3 Fingerprint using EdgeWorkers. TLS fingerprinting is a technique that associates a TLS library with parameters from a TLS ClientHello via a database of curated fingerprints to identify malware and vulnerable applications for better network visibility. The JA3 algorithm takes a collection of settings from the SSL “ClientHello” such as SSL/TLS version, accepted cipher suites, list of extensions, accepted elliptical curves/formats, and others. For compactness, the JA3 string is hashed with MD5. This EdgeWorker calculates JA3 Fingerprint to help customers deny requests from services with suspicious JA3 Fingerprints and credentials, without contacting origin servers even on cacheable contents.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
+      <description>&lt;p&gt;Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

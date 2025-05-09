@@ -4,7 +4,7 @@ title = 'Edge Compute Live'
 theme = 'edge-theme'
 disableKinds = ["tags"]
 ignoreErrors = ["error-disable-taxonomy"]
-paginate = 15
+pagination.pagerSize = 15
 
 [taxonomies]
 	category = "categories"

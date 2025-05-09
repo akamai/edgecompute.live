@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/</link>
     <description>Recent content in Categories on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auth</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/auth/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/auth/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/auth/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Tools</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/developer-tools/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/developer-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/developer-tools/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/developer-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/ecommerce/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/ecommerce/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/marketing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/marketing/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellaneous</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/miscellaneous/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/miscellaneous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/miscellaneous/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/miscellaneous/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/performance/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/performance/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/security/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/security/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Routing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/traffic-routing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/traffic-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/categories/traffic-routing/</guid>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/categories/traffic-routing/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Traffic Routing on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/traffic-routing/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/traffic-routing/</link>
     <description>Recent content in Traffic Routing on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/traffic-routing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/traffic-routing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
+      <description>&lt;p&gt;Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Conference/Meeting Details</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/conference-metting-details/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/conference-meeting-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/conference-metting-details/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/conference-meeting-details/</guid>
+      <description>&lt;p&gt;Implements a Conference Attendance Code API call that returns the meeting details of a conference as HTML if the user provides the correct code. With abc123 in the key GET parameter, the user is shown conference details. If the parameter is incorrect, an error is returned, keeping the information away from the browser to maintain confidentiality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/device-routing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/device-routing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/device-routing/</guid>
+      <description>&lt;p&gt;Implements modification of the forward origin path of the URL to return device-specific content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
+      <description>&lt;p&gt;Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
+      <description>&lt;p&gt;Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews&lt;/p&gt;&#xA;&lt;p&gt;This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.&lt;/p&gt;&#xA;&lt;iframe width=&#39;560&#39; height=&#39;315&#39; src=&#39;https://www.youtube.com/embed/DAFmdGi_XQo?si=opditGW5xdmZnDBQ&#39; title=&#39;YouTube video player&#39; frameborder=&#39;0&#39; allow=&#39;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#39; referrerpolicy=&#39;strict-origin-when-cross-origin&#39; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
+      <description>&lt;p&gt;Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

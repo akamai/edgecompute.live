@@ -2,206 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Examples on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/</link>
     <description>Recent content in Examples on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/examples/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
+      <description>&lt;p&gt;Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A/B Testing with EdgeKV</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</guid>
+      <description>&lt;p&gt;By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript.&lt;/p&gt;</description>
     </item>
     <item>
       <title>API Orchestration</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/api-orchestration/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/api-orchestration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/api-orchestration/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/api-orchestration/</guid>
+      <description>&lt;p&gt;Demonstrates how EdgeWorkers can be used to merge multiple internal APIs into a single API response from a user experience perspective.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Autocomplete</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/autocomplete/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/autocomplete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/autocomplete/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/autocomplete/</guid>
+      <description>&lt;p&gt;Serves responses for popular search terms at the Edge. Autocomplete requests are typically long tail and frequently changing. Without an EdgeWorker, it is difficult to get up-to-date content from cache. Storing and serving the most popular search terms from the Edge will speed up responses significantly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cachekey Device Type</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</guid>
+      <description>&lt;p&gt;This example includes the device type (tablet or mobile) from a PMUSER variable in the computed cache key for an Edge Server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Conference/Meeting Details</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/conference-metting-details/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/conference-meeting-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/conference-metting-details/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/conference-meeting-details/</guid>
+      <description>&lt;p&gt;Implements a Conference Attendance Code API call that returns the meeting details of a conference as HTML if the user provides the correct code. With abc123 in the key GET parameter, the user is shown conference details. If the parameter is incorrect, an error is returned, keeping the information away from the browser to maintain confidentiality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Content Security Policy</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/content-security-policy/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/content-security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/content-security-policy/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/content-security-policy/</guid>
+      <description>&lt;p&gt;A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cookie Geolocation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cookie Manipulation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
+      <description>&lt;p&gt;Implements an EdgeWorker to add geolocation data to a cookie in the HTTP response. This cookie returns location information about the client where the request originates, including a lookup from custom data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/device-routing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/device-routing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/device-routing/</guid>
+      <description>&lt;p&gt;Implements modification of the forward origin path of the URL to return device-specific content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dynamic Callback</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/dynamic-callback/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/dynamic-callback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/dynamic-callback/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/dynamic-callback/</guid>
+      <description>&lt;p&gt;Demonstrates how an EdgeWorker can wrap a JSON response with a dynamic unique callback function leveraging Response Provider and Stream API for efficient content transformation. The EdgeWorker should be enabled on JSON requests containing a callback query parameter, which can be managed via Property Manager. When such a request comes in, this EdgeWorker removes the callback query parameter, makes a sub-request to fetch the JSON data, and serves it as a stream. The EdgeWorker code adds a prefix with the callback function name captured from the query parameter and a suffix. Both JSON data and transformed data can be cached using standard &amp;ldquo;&amp;ldquo;Caching&amp;rdquo;&amp;rdquo; behavior in Property Manager if caching is allowed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ecommerce/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ecommerce/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ecommerce/</guid>
+      <description>&lt;p&gt;This EdgeWorker tests for /commerce/categories in the URI path and responds to a GET parameter named search by running a case-insensitive regex against each title and description field, and a numeric comparison against each ID, returning an array of matching category entities, serialized as JSON. The response is generated at the Edge, so the origin server is not contacted, and the request is resolved at the first Edge server that answers it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>EdgeKV Hello World</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</guid>
+      <description>&lt;p&gt;The Hello World example demonstrates how you can use EdgeWorkers and EdgeKV to implement a simple Dynamic Content Assembly use case whereby the HTML response is dynamically constructed on the edge based on the content of the Accept-Language header in the client request. It also shows how you could use the getText() helper method.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Find Replace Stream</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/find-replace-stream/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/find-replace-stream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/find-replace-stream/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Geo Redirect</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/find-replace-stream/</guid>
+      <description>&lt;p&gt;Demonstrates how an EdgeWorker can modify an HTTP response stream by performing a find &amp;amp; replace operation on the response. The example searches for specific text and replaces it with another across the entire response body. It accepts an optional parameter to specify the number of replacements. If not specified, the replacement occurs as many times as possible. The demo replaces &amp;ldquo;&amp;ldquo;This is the original string&amp;rdquo;&amp;rdquo; with &amp;ldquo;&amp;ldquo;This is the updated string&amp;rdquo;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
+      <description>&lt;p&gt;This example implements a microservice GEO-Location API call that returns location information about the client where the request originates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/hello-world/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/hello-world/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/hello-world/</guid>
+      <description>&lt;p&gt;With this example you learn the basics of creating, deploying and debugging an EdgeWorker that generates a simple html page at the Edge and adds a response header.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTML Rewriter</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/html-rewriter/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/html-rewriter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/html-rewriter/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/html-rewriter/</guid>
+      <description>&lt;p&gt;Leverage EdgeWorkers html-rewriter to efficiently generate dynamic HTML content by combining JSON data from an API endpoint with an HTML template. Additionally, if the request is made by a logged-in user, a discount code will be dynamically incorporated into the rendered document. By performing these operations at the Edge with EdgeWorkers, we enhance site performance, offload server resources, and unlock SEO advantages. The template, JSON data, and rendered content can all be efficiently cached at the Edge, further optimizing response times and improving the overall site experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JA3 Fingerprinting</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</guid>
+      <description>&lt;p&gt;Calculates JA3 Fingerprint using EdgeWorkers. TLS fingerprinting is a technique that associates a TLS library with parameters from a TLS ClientHello via a database of curated fingerprints to identify malware and vulnerable applications for better network visibility. The JA3 algorithm takes a collection of settings from the SSL “ClientHello” such as SSL/TLS version, accepted cipher suites, list of extensions, accepted elliptical curves/formats, and others. For compactness, the JA3 string is hashed with MD5. This EdgeWorker calculates JA3 Fingerprint to help customers deny requests from services with suspicious JA3 Fingerprints and credentials, without contacting origin servers even on cacheable contents.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
+      <description>&lt;p&gt;Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Origin Error Handling</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/origin-error-handling/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/origin-error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/origin-error-handling/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/origin-error-handling/</guid>
+      <description>&lt;p&gt;Translates a HTTP 503 status code (service unavailable) from an overloaded origin into an HTML page presenting the information in a more user-friendly way. It includes JavaScript to retry after the period indicated by the &amp;lsquo;Retry-After&amp;rsquo; header from the origin, if present. Otherwise, it retries after a default number of seconds. Configuring the property to cache HTTP error responses, even for a short duration, makes sense for dynamic content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
+      <description>&lt;p&gt;Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews&lt;/p&gt;&#xA;&lt;p&gt;This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.&lt;/p&gt;&#xA;&lt;iframe width=&#39;560&#39; height=&#39;315&#39; src=&#39;https://www.youtube.com/embed/DAFmdGi_XQo?si=opditGW5xdmZnDBQ&#39; title=&#39;YouTube video player&#39; frameborder=&#39;0&#39; allow=&#39;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#39; referrerpolicy=&#39;strict-origin-when-cross-origin&#39; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Promo Code Validation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/promo-code-validation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/promo-code-validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/promo-code-validation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/promo-code-validation/</guid>
+      <description>&lt;p&gt;The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Register User Details</title>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/register-user-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/register-user-details/</guid>
+      <description>&lt;p&gt;Demonstrates how you can use EdgeWorkers and EdgeKV to collect user details. It also shows how you could use the putJson() helper method. &lt;br&gt;&lt;br&gt;Note: Please copy the &amp;lsquo;key&amp;rsquo; value from the output if you wish to verify the entered details in the Search User example.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Response Manipulation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/response-manipulation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/response-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/response-manipulation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/response-manipulation/</guid>
+      <description>&lt;p&gt;Demonstrates how an EdgeWorker can modify an HTML response stream by adding content to the response. The example adds a script to the page just before the closing head tag.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search User Details</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/search-user-details/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/search-user-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/search-user-details/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/search-user-details/</guid>
+      <description>&lt;p&gt;The example demonstrates how you can use EdgeWorkers and EdgeKV to search for specific user details. It also shows how you could use getJson() helper method.&lt;br&gt;&lt;br&gt; Note : This is an extension of User Registration use case. You would need the key value from the User Registration use case if you want to verify the details.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Store Locator</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/store-locator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
+      <description>&lt;p&gt;Implements a microservice store locator API call that returns the two stores nearest to the provided latitude and longitude. &lt;br&gt;&lt;br&gt;Note: Latitude and Longitude values are hardcoded for demo purposes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>User Registration</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/user-registration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/user-registration/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
+      <description>&lt;p&gt;Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

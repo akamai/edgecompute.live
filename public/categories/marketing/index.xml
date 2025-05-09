@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/marketing/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/marketing/</link>
     <description>Recent content in Marketing on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
+      <description>&lt;p&gt;Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A/B Testing with EdgeKV</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</guid>
+      <description>&lt;p&gt;By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
+      <description>&lt;p&gt;Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Promo Code Validation</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/promo-code-validation/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/promo-code-validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/promo-code-validation/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/promo-code-validation/</guid>
+      <description>&lt;p&gt;The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

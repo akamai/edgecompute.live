@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miscellaneous on Edge Compute Live</title>
-    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/miscellaneous/</link>
+    <link>http://localhost:1313/Akamai-Edge-Compute-Live/categories/miscellaneous/</link>
     <description>Recent content in Miscellaneous on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Akamai-Edge-Compute-Live/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autocomplete</title>
-      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/autocomplete/</link>
+      <link>http://localhost:1313/Akamai-Edge-Compute-Live/examples/autocomplete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/autocomplete/</guid>
-      <description></description>
+      <guid>http://localhost:1313/Akamai-Edge-Compute-Live/examples/autocomplete/</guid>
+      <description>&lt;p&gt;Serves responses for popular search terms at the Edge. Autocomplete requests are typically long tail and frequently changing. Without an EdgeWorker, it is difficult to get up-to-date content from cache. Storing and serving the most popular search terms from the Edge will speed up responses significantly.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
